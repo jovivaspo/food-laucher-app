@@ -13,3 +13,9 @@
 [submodule "auth-ms"]
 	path = auth-ms
 	url = https://github.com/ms-food/auth-ms.git
+[submodule "food-client-gateway"]
+	path = food-client-gateway
+	url = https://github.com/jovivaspo/food-client-gateway.git
+[submodule "food-product-ms"]
+	path = food-product-ms
+	url = https://github.com/jovivaspo/food-product-ms.git

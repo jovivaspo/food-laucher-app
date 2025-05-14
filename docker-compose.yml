@@ -5,11 +5,11 @@ services:
       - 8222:8222
 
   client-gateway:
-    build: ./client-gateway
+    build: ./food-client-gateway
     ports:
       - ${CLIENT_GATEWAY_PORT}:3000
     volumes:
-      - ./client-gateway/src:/usr/src/app/src
+      - ./food-client-gateway/src:/usr/src/app/src
     command: npm run start:dev
     environment:
       - PORT=3000
@@ -20,7 +20,7 @@ services:
     image: postgres:16.2
     restart: always
     volumes:
-      - ./product-ms/postgres:/var/lib/postgresql/data
+      - ./food-product-ms/postgres:/var/lib/postgresql/data
     ports:
       - 5432:5432
     environment:
@@ -31,9 +31,9 @@ services:
   product-ms:
     depends_on:
       - product-db
-    build: ./product-ms
+    build: ./food-product-ms
     volumes:
-      - ./product-ms/src:/usr/src/app/src
+      - ./food-product-ms/src:/usr/src/app/src
     command: npm run start:dev
     environment:
       - PORT=${PRODUCT_MS_PORT}
