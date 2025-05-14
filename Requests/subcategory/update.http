@@ -1,0 +1,7 @@
+PATCH   http://localhost:3000/api/subcategory/e37a12f9-0fa0-4f6e-ab9c-d1400790ba28
+Content-Type: application/json
+
+{
+   
+    "name": "En lata editada"
+  }

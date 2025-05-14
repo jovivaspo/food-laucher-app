@@ -2,6 +2,7 @@ POST  http://localhost:3000/api/category
 Content-Type: application/json
 
 {
-  "name": "New Category",
-  "description": "This is a new category"
+  "name": "Dietéticos y Especiales",
+  "description": " Productos sin gluten, veganos, proteicos, bajos en azúcar, otros productos especiales."
+ 
 }
