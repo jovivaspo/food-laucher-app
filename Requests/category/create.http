@@ -1,0 +1,7 @@
+POST  http://localhost:3000/api/category
+Content-Type: application/json
+
+{
+  "name": "New Category",
+  "description": "This is a new category"
+}
