@@ -1,0 +1,33 @@
+POST http://localhost:3000/api/ingredient
+Content-Type: application/json
+
+{
+    "name": "Lecitina de Soja",
+    "scientificName": "E-322",
+    "isBasicFood": false,
+    "description": "Emulsionante natural derivado de la soja",
+    "allergenType": "SOY",
+    "origin": "VEGETAL",
+    "additiveType": "EMULSIFIER",
+    "servingSize": 1,
+    "servingMeasurement": "g",
+    "calories": 5,
+    "proteins": 0,
+    "carbohydrates": 0.2,
+    "sugars": 0,
+    "fats": 0.5,
+    "saturatedFats": 0.1,
+    "fiber": 0,
+    "risks": [
+        {
+            "riskType": "ALLERGENIC",
+            "level": "MEDIUM"
+        }
+    ],
+    "micronutrients": [
+        {
+            "micronutrientId": "914fdf25-b4e0-4fa0-98a6-a9315fa345fd",
+            "amount": 0.1
+        }
+    ]
+}
