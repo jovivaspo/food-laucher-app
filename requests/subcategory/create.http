@@ -1,7 +1,0 @@
-POST http://localhost:3000/api/subcategory
-Content-Type: application/json
-
-{
-  "name": "En lata",
-  "categoryId": "2147caa2-0405-4f5e-80a8-2e8282e3343a"
-}
