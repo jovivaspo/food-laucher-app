@@ -1,0 +1,23 @@
+POST  http://localhost:3000/api/staple-food
+Content-Type: application/json
+
+{
+  "name": "Rice",
+ "allergenType" : [],
+ "origin" : "VEGETAL",
+ "servingSize" : 100,
+ "servingMeasurement" : "g",
+ "calories" : 130,
+  "carbohydrates" : 28,
+  "proteins" : 2.7,
+  "fats" : 0.3,
+  "sugars" : 0.1,
+  "fiber" : 0,
+  "saturatedFats" : 0.1,
+  "micronutrients": [
+    {
+      "micronutrientId": "54e7b950-abad-4d31-be6a-88c38e3ea5d1"
+    }
+  ]
+
+}

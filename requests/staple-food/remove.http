@@ -1,0 +1,3 @@
+@id = 74111ad7-9f28-4dcd-a743-84a32215c874
+
+DELETE http://localhost:3000/api/staple-food/{{id}}
